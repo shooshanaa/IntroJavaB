@@ -25,23 +25,37 @@ public class Conditionals {
          //Task:2
 
             int counter = 1;
-
-
          while (counter <= 50) {
             if (counter %4 == 0) {
-                System.out.println(counter + " is a multiple of 4");
-
+                System.out.println(counter);
             }
             counter ++;
 
-            }
         }
 
+         // Task: 3
+
+        int number = 1;
+         for (int i =1; i<50; i++)
+        {
+            if (i % 3 == 0 && i % 7 == 0) {
+                System.out.println("FizzBuzz");
+            } else if
+                (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if
+                (i % 7 == 0) {
+                    System.out.println("Buzz");
+                } else {
+                    System.out.println(i);
+                }
+            }
 
 
 
 
     }
+
 
 
 }
