@@ -31,14 +31,16 @@ public class HomeworkStrings {
         // For example, if that variable is set to 4, then it will return an output like 'burrrrp'.
 
         int num = 3;
-        int index = 2;
-        String word1 = "bur";
-        String word2 = "p";
+        String rnumber = " ";
+
+        for (int i = 0; i < num ; i++) {
+            rnumber = rnumber + "r";
+
+        }
+        System.out.println("bu" + rnumber + "p");
 
 
-        char ch = 'r';
-        word1=word1 + ch;
-        System.out.println(word1 + word2);
+
 
 
         System.out.println("Task 3:");
@@ -53,6 +55,10 @@ public class HomeworkStrings {
         word = word.replace('o', ' ');
 
         System.out.println(word.replace('h', ' '));
+
+
+        String newword = "hello";
+        System.out.println(newword.substring(1, newword.length()-1));
 
 
         System.out.println("Task 4:");
