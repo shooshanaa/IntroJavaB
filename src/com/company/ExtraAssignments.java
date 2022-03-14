@@ -34,11 +34,11 @@ public class ExtraAssignments {
         // Write a program that accepts a String from a user and prints
         // an interactive response telling the user if the word is the same when spelt backwards.
         // For example, bread when spelt backwards is daerb, which isn't quite the same.
-
+/*
         System.out.println("Task 2:");
 
         System.out.println("Please enter a word: ");
-        String userString = scanner.next();
+        String userString = scanner.nextLine();
         String backwards = "";
         char chnew;
 
@@ -50,7 +50,7 @@ public class ExtraAssignments {
             System.out.println("Your word is the same spelt backwards " + (backwards));
         } else {
             System.out.println("Your word is not spelt the same backwards " + (backwards));
-        }
+        }*/
 
         // Write a program that accepts any of the primary colors as a String
         // and returns the complimentary color of that color to the user.
@@ -60,11 +60,9 @@ public class ExtraAssignments {
 
         String userColor = scanner.next();
 
-        if (userColor.equalsIgnoreCase("red"+"yellow"+"blue")) {
-
-            switch (userColor) {
+                    switch (userColor) {
                 case "blue":
-                    System.out.println("The complimentary colour of blue is orange.");
+                    System.out.println("The complementary colour of blue is orange.");
                     break;
                 case "yellow":
                     System.out.println("The complementary colour of yellow is purple.");
@@ -73,11 +71,9 @@ public class ExtraAssignments {
                     System.out.println("The complementary colour of red is green.");
                     break;
 
-            }
-        }else {
-                System.out.println("That's not a primary colour.");
-
-
+                default:
+                     System.out.println("That's not a primary colour.");
+                     break;
 
         }
     }
