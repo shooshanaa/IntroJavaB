@@ -60,7 +60,7 @@ public class ExtraAssignments {
 
         String userColor = scanner.next();
 
-        if (userColor.equalsIgnoreCase(["red"+"yellow"|+"blue"])) {
+        if (userColor.equalsIgnoreCase("red"+"yellow"+"blue")) {
 
             switch (userColor) {
                 case "blue":
