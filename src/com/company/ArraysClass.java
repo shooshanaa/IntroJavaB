@@ -41,7 +41,7 @@ public class ArraysClass {
         int[] userNumbers = new int[scanner.nextInt()];
 
         for (int i = 0; i < userNumbers.length; i++) {
-            System.out.prifntln("Please enter your numbers:");
+            System.out.println("Please enter your numbers:");
             userNumbers[i] = scanner.nextInt();
 
         }
