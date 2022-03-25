@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 import static java.time.temporal.ChronoUnit.DAYS;
+import static java.time.temporal.ChronoUnit.YEARS;
 
 
 public class DateAndTime {
@@ -43,9 +44,9 @@ public class DateAndTime {
         System.out.println( (end - begin) + " hours from  " + begin + " o'clock till " + end + " o'clock.");*/
 
 
-        //Write a Java program to get year and months between two dates.
+       //Write a Java program to get year and months between two dates.
 
-        System.out.println("Enter a date (yyyy-mm-dd): ");
+       /* System.out.println("Enter a date (yyyy-mm-dd): ");
         LocalDate begin = LocalDate.parse(scanner.next());
 
 
@@ -60,7 +61,7 @@ public class DateAndTime {
         } else {
             System.out.println(end.until(begin));
         }
-
+*/
 
         //Write a Java program to calculate the difference between two dates in days.
         System.out.println("Enter a date (yyyy-mm-dd): ");
@@ -71,9 +72,28 @@ public class DateAndTime {
         LocalDate stop = LocalDate.parse(scanner.next());
 
 
-        long days = DAYS.between (start, stop);
+        long days = Math.abs(DAYS.between (start, stop));
 
         System.out.println(days + " days between two given dates.");
+
+        //Task: calculate a persons age
+
+        System.out.println("Enter your birth date (yyyy-mm-dd): ");
+        LocalDate birthDate = LocalDate.parse(scanner.next());
+
+        LocalDate today = LocalDate.now();
+        System.out.println(today);
+
+        long personsAge = YEARS.between(birthDate, today);
+        System.out.println("You are " + personsAge + " years old.");
+
+
+
+
+
+
+
+
 
 
 
