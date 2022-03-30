@@ -89,10 +89,8 @@ public class TasksMarchTwentyFive {
         // N.B. you can't buy half of an item.
         // You can buy -- and -- and you'll be left with -- dollars.
 
-     /*   String[] list = {"bananas", "bread", "fish"};
-        int bananas = 12;
-        int bread = 5;
-        int fish = 10;
+        String[] list = {"bananas", "bread", "fish"};
+
         int cash = 20;
 
         System.out.println(Arrays.toString(list));
@@ -112,8 +110,7 @@ public class TasksMarchTwentyFive {
                 count++;
             }
         }
-        System.out.println("You can buy " + count + " items and you are left with " + (cash - sum) + " dollars.");*/
-
+        System.out.println("You can buy " + count + " items and you are left with " + (cash - sum) + " dollars.");
 
 
         // Task 4: magic dates
@@ -153,7 +150,7 @@ public class TasksMarchTwentyFive {
                 System.out.println( " is a magic date.");
 
             } else
-                System.out.println("nothing magical about this date.");
+                System.out.println(" nothing magical about this date.");
 
 
 
