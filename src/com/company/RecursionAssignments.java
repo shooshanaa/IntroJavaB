@@ -8,7 +8,7 @@ public class RecursionAssignments {
         Scanner scanner = new Scanner(System.in);
 
         //Task 1:
-        System.out.println("The sum is " + upToNumber(8));
+        System.out.println("The sum is " + upToNumber(25));
 
         //Task 2:
         System.out.println("Enter a word: ");
