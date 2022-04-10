@@ -1,4 +1,4 @@
-package com.company;
+package com.company.OOP;
 
 public class Calculator {
     public static int add(int smallNumber, int bigNumber) {
